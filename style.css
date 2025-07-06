@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+#tablaGenerada {
+  border: 2px solid #198754;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #eaf4ef;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #c6e3d4;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.linea-verde {
+  border: none;
+  height: 4px;
+  background-color: #198754;
+  margin: 20px 0;
+  border-radius: 2px;
+}
